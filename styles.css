@@ -1,0 +1,134 @@
+    .attribution {
+       font-size: 0.8rem;
+        text-align: center;
+        margin-top: 0.8rem;
+       }
+    .attribution a { 
+      color: var(--Green1);
+      font-weight: 700; 
+    }
+    :root{
+      --Black: hsl(212, 21%, 14%);
+      --Grey: hsl(228, 12%, 48%);
+      --Cream: hsl(30, 38%, 92%);
+      --White: hsl(0, 0%, 100%);
+      --Green1: hsl(158, 36%, 37%);
+      --Green2: hsl(158, 42%, 18%);
+    }
+    *,
+    *::after,
+    *::before{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items:center;
+      flex-direction: column;
+      background-color: var(--Cream);
+    }
+    .container{
+      width: 600px;
+      height: 450px;
+      background-color: var(--White);
+      border-radius: 0.7rem;
+    }
+    img{
+      width: 300px;
+      float: left;
+      border-radius: 0.7rem 0 0 0.7rem;
+    }
+    .intro{
+      text-transform: uppercase;
+      letter-spacing: 0.4rem;
+      font-family: "Montserrat", sans-serif;
+      font-size: 0.7rem;
+      color: var(--Grey);
+      padding: 2rem 0 1.2rem 21rem;
+    }
+    h1{
+      font-family: "Fraunces",serif;
+       padding: 0 2rem 1rem 21rem;
+       color: var(--Black);
+    }
+    .description{
+      color: var(--Grey);
+      font-family: "Montserrat",sans-serif;
+      padding: 0 1.5rem 1.2rem 21rem;
+      font-size: 14px;
+      line-height: 1.5rem;
+      font-weight: 500;
+    }
+    .price{
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      padding-left: 2.5rem;
+    }
+    .new-price{
+      font-family: "Fraunces",serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--Green1);
+      padding-top: 0.5rem;
+    }
+    .old-price{
+      font-family: "Montserrat",sans-serif;
+      font-size: 0.8rem;
+      color: var(--Grey);
+      padding-top: 1.2rem;
+      text-decoration: line-through
+    }
+    button{
+      margin: 1.5rem 2.5rem 0 2.5rem;
+      width: 220px;
+      height: 40px;
+      border-radius: 0.3rem;
+      border: none;
+      background-color: var(--Green1);
+      color: var(--White);
+      font-family: "Montserrat",sans-serif;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    button:hover{
+      background-color: var(--Green2);
+    }
+    i{
+    margin-right: 0.5rem;
+    }
+
+    @media screen and (max-width:600px) {
+            .attribution {
+       font-size: 0.7rem;
+       }
+    .container{
+      width: 350px;
+      height: 760px;
+    }
+    img{
+      width: 350px;
+      border-radius: 0.7rem 0.7rem 0 0;
+      margin-bottom: 2rem;
+    }
+    .intro{
+      padding: 2rem 0 1.2rem 2rem;
+    }
+    h1{
+       padding: 0 2rem 1rem 2rem;
+    }
+    .description{
+      padding: 0 1.7rem 1.2rem 2rem;
+    }
+    .price{
+      padding-left: 2rem;
+    }
+    button{
+      width: 280px;
+      height: 48px;
+    }
+
+    }
