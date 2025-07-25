@@ -16,7 +16,7 @@ A responsive and visually appealing product preview card component built with HT
 
 ## 🚀 Live Demo
 
-👉 [Live site URL here]
+👉 [Live site URL here](https://muratkilci067.github.io/Product-preview-card-component/)
 
 ---
 
